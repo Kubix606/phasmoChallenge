@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(to bottom, #000000, #1a1a1a);
+    color: #fff;
+    /*font-family: 'Arial', sans-serif;*/
+    font-family: OctoberCrow;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .wheel-container {
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+  }
+  
+  canvas {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: OctoberCrow;
+    color: darkslategrey;
+    text-shadow: 2px 2px 3px yellow;
+  }
+
+  button:hover {
+    background-color: white;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  
+  .result h2 {
+    font-size: 1.8em;
+  }
+  
+  .result p {
+    font-size: 1.4em;
+    color: #ffdd00;
+  }
+
+  @font-face { font-family: OctoberCrow; src: url("./czcionki/OctoberCrow.ttf"); } 
+  #warningd{
+    color: red;
+    text-shadow:
+    2px 2px 2px black,
+    3px 3px 2px black;
+    font-family: OctoberCrow;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  footer{
+    color: wheat;
+    text-shadow: 4px 4px 5px black;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #f2{
+    color: #7289da;
+    text-shadow: 4px 4px 5px black;
+    text-align: center;
+    font-weight: bold;
+  }
+  

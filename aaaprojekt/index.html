@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phasmophobia Challenge & Role Selector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Phasmophobia Wyzwania & Role</h1>
+
+    <!-- Sekcja losowania wyzwań -->
+    <div class="wheel-container">
+      <canvas id="challengeWheel" width="400" height="400"></canvas>
+      <button id="spinChallengeButton">Wylosuj Wyzwanie</button>
+    </div>
+    <div class="result"><br><br>
+      <h2>Wylosowane Wyzwanie:</h2>
+      <p id="challengeResult"></p>
+    </div>
+
+    <!-- Sekcja losowania ról -->
+    <div class="wheel-container">
+      <canvas id="roleWheel" width="400" height="400"></canvas>
+      <button id="spinRoleButton">Wylosuj Role</button>
+    </div>
+    <div class="result"><br><br>
+      <h2>Wylosowana Rola:</h2>
+      <p id="roleResult"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <img src="warn.png" alt="warning">
+  <div id="warningd">
+        <p>Niektore role moga sie ze soba "Grysc", jesli taka sytuacja nastapi mozesz wylosowac nastepna role lub grac dalej z wlasnie wylosowana rola.</p>
+  </div>
+  <footer>
+    <p>Web Made by Kubix606</p>
+  </footer>
+  <div id="f2">
+    <p>Contact Discord: Kubix606</p>
+  </div>
+</body>
+</html>
